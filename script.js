@@ -75,3 +75,39 @@
 // }); // now the event click will work for all buttons //! {once: true} will work only one time
 
 
+//! here we changed HTML and did some practice with selectors
+
+//todo 1) Выбрать input типа checkbox.
+//todo 2) Выбрать input типа checkbox, НЕ отмеченный.
+//todo 3) Найти все элементы с id=message или message-*.
+//todo 4) Найти все элементы с id=message-*.
+//todo 5) Найти все ссылки с расширением href="...zip".
+//todo 6) Найти все элементы с атрибутом data-action, содержащим delete в списке (через пробел).
+//todo 7) Найти все элементы, у которых ЕСТЬ атрибут data-action, но он НЕ содержит delete в списке (через пробел).
+//todo 8) Выбрать все чётные элементы списка #messages.
+//todo 9) Выбрать один элемент сразу за заголовком h3#widget-title на том же уровне вложенности.
+//todo 10) Выбрать все ссылки, следующие за заголовком h3#widget-title на том же уровне вложенности.
+//todo 11) Выбрать ссылку внутри последнего элемента списка #messages.
+
+// const input1 = document.querySelector('input'),
+//       inputChecked = document.querySelector('input:checked'),
+//       messageId = document.querySelectorAll('[id|="message"]'),
+//       messageIdAll = document.querySelectorAll('[id^="message-"]'),
+//       linksZip = document.querySelectorAll('a[href$=".zip"]'),
+//       dataActionDelete = document.querySelectorAll('[data-action~="delete"]'),
+//       dataActionNotDel = document.querySelectorAll('[data-action]:not([data-action~="delete"]'),
+//       messageEven = document.querySelectorAll('#messages li:nth-child(2n)'),
+//       titleWidgetAllNextElements = document.querySelectorAll('h3#widget-title + *'),
+//       TWAllNextAnchors = document.querySelectorAll('h3#widget-title ~ a'),
+//       lastChildMessages = document.querySelectorAll('#messages li:last-child a');
+
+// console.log(input1);
+// console.log(inputChecked);
+// console.log(messageId);
+// console.log(messageId);
+// console.log(messageIdAll);
+// console.log(linksZip);
+// console.log(messageEven);
+// console.log(titleWidgetAllNextElements);
+// console.log(TWAllNextAnchors);
+// console.log(lastChildMessages);
