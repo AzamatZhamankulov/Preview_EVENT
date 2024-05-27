@@ -112,3 +112,35 @@
 // console.log(TWAllNextAnchors);
 // console.log(lastChildMessages);
 
+
+//! #46: Navigation on DOM - Data attribute advantage of the FOR/OF
+
+//todo childNodes + firstChild + lastchild
+// console.log(document.documentElement); // HTML
+// console.log(document.head); //head
+// console.log(document.body); // body
+// console.log(document.body.childNodes); // text, comment, text, div.wtapper DOM узлы
+// console.log(document.body.firstChild);
+// console.log(document.body.lastChild);
+
+//todo .parentNode
+// console.log(document.querySelector('#current').parentNode); // div.first
+// console.log(document.querySelector('#current').parentNode.parentNode); // div.wrapper
+
+//todo data attribute
+// console.log(document.querySelector('[data-current="3"]')); // li datacurrent=3
+// console.log(document.querySelector('[data-current="3"]').nextSibling); // #text
+// console.log(document.querySelector('[data-current="3"]').previousSibling); // #text
+
+// console.log(document.querySelector('[data-current="3"]').nextElementSibling); // li 4
+// console.log(document.querySelector('#current').parentElement); // div.first
+// console.log(document.body.firstElementChild); // div.wrapper (first child of tag body)
+// console.log(document.body.lastElementChild); // script (last child of body)
+
+//todo loopring iteratrtion with FOR OF
+// for (let node of document.body.childNodes) {
+//     if (node.nodeName == '#text' || node.nodeName == '#comment' ) {
+//         continue;
+//     }
+//     console.log(node);
+// }
